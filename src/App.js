@@ -21,7 +21,7 @@ class App extends React.Component {
   displayMessage(){
     const date = new Date();
     const hour = date.getHours()
-    const username = "shilpa"
+    const username = "Anagha"
    if(hour < 12) {
      this.setState({data: `Good Morning ${username}`})
    }else if (hour < 18 ) {
